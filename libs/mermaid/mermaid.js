@@ -71978,8 +71978,8 @@ module.exports = last;
      * @returns {Function} Returns the new restricted function.
      * @example
      *
-     * jQuery(element).on('click', _.before(5, addContactToList));
-     * // => Allows adding up to 4 contacts to the list.
+     * jQuery(element).on('click', _.before(5, addSponsorToList));
+     * // => Allows adding up to 4 Sponsors to the list.
      */
     function before(n, func) {
       var result;
@@ -78103,8 +78103,8 @@ module.exports = last;
      * @returns {string} Returns the unique ID.
      * @example
      *
-     * _.uniqueId('contact_');
-     * // => 'contact_104'
+     * _.uniqueId('Sponsor_');
+     * // => 'Sponsor_104'
      *
      * _.uniqueId();
      * // => '105'
@@ -80268,8 +80268,8 @@ var idCounter = 0;
  * @returns {string} Returns the unique ID.
  * @example
  *
- * _.uniqueId('contact_');
- * // => 'contact_104'
+ * _.uniqueId('Sponsor_');
+ * // => 'Sponsor_104'
  *
  * _.uniqueId();
  * // => '105'
