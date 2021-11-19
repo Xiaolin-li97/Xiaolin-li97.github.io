@@ -20,6 +20,11 @@
         max-width: 1125px;
     }
 
+    #indexCard .container {
+        width: 100%;
+        max-width: 90%;
+    }
+
     .head-container {
         position: absolute;
         padding: 0 30px;
